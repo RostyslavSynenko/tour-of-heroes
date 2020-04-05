@@ -18,16 +18,19 @@ nav {
     display: inline-block;
     background-color: #eee;
     border-radius: 4px;
-  }
-  a:visited,
-  a:link {
-    color: #334953;
-  }
-  a:hover {
-    color: #039be5;
-    background-color: #cfd8dc;
-  }
-  a.active {
-    color: #039be5;
+
+    &:visited,
+    &:link {
+      color: #334953;
+    }
+
+    &:hover {
+      color: #039be5;
+      background-color: #cfd8dc;
+    }
+
+    &.active {
+      color: #039be5;
+    }
   }
 }

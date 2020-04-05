@@ -22,14 +22,14 @@ button {
   border-radius: 4px;
   cursor: pointer;
   cursor: hand;
-}
 
-button:hover {
-  background-color: #cfd8dc;
-}
+  &:hover {
+    background-color: #cfd8dc;
+  }
 
-button:disabled {
-  background-color: #eee;
-  color: #ccc;
-  cursor: auto;
+  &:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
 }
